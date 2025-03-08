@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('fondo.jpg'); 
+    background-size: auto;
+}
+
+.article, article {
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+#titulo {
+    color: black;
+}
+
+p.texto {
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aquí utilizamos Flexbox */
+    justify-content: center;
+}
+
+.navbar ul li a {
+    display: flex;
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.Granja {
+    color: darkgoldenrod;
+    text-align: center;
+}
